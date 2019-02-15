@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="673" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="close" min="-2" pref="162" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="297" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="close" pref="41" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="17">
+                <Column editable="true" title="SongID" type="java.lang.Object">
+                  <Data value="101"/>
+                  <Data value="102"/>
+                  <Data value="103"/>
+                  <Data value="104"/>
+                  <Data value="105"/>
+                  <Data value="106"/>
+                  <Data value="107"/>
+                  <Data value="108"/>
+                  <Data value="109"/>
+                  <Data value="110"/>
+                  <Data value="111"/>
+                  <Data value="112"/>
+                  <Data value="113"/>
+                  <Data value="114"/>
+                  <Data value="115"/>
+                  <Data value="116"/>
+                  <Data value="114"/>
+                </Column>
+                <Column editable="true" title="SongName" type="java.lang.Object">
+                  <Data value="&quot;Shape of You&quot;"/>
+                  <Data value="&quot;That&apos;s What I Like&quot;"/>
+                  <Data value="&quot;I&apos;m the One&quot;"/>
+                  <Data value="&quot;Despacito&quot;"/>
+                  <Data value="&#x9;&quot;Look What You Made Me Do&quot;"/>
+                  <Data value="&quot;Bodak Yellow&quot;"/>
+                  <Data value="&quot;Rockstar&quot;"/>
+                  <Data value="&quot;Perfect&quot;"/>
+                  <Data value="&quot;Hello&quot;"/>
+                  <Data value="&quot;Sorry&quot;"/>
+                  <Data value="&quot;Love Yourself&quot;"/>
+                  <Data value="&quot;Work&quot;"/>
+                  <Data value="&quot;Can&apos;t Stop the Feeling!&quot;"/>
+                  <Data value="&quot;One Dance&quot;"/>
+                  <Data value="&quot;Cheap Thrills&quot;"/>
+                  <Data value="&quot;Closer&quot;"/>
+                  <Data value="&quot;Black Beatles&quot;"/>
+                </Column>
+                <Column editable="true" title="Singer" type="java.lang.Object">
+                  <Data value="Ed Sheeran"/>
+                  <Data value="Bruno Mars"/>
+                  <Data value="DJ Khaled featuring Justin Bieber, Quavo,  Chance the Rapper and Lil Wayne"/>
+                  <Data value="Luis Fonsi and Daddy Yankee featuring Justin Bieber"/>
+                  <Data value="Taylor Swift"/>
+                  <Data value="Cardi B"/>
+                  <Data value="Post Malone featuring 21 Savage"/>
+                  <Data value="Ed Sheeran duet with Beyonc&#xe9;"/>
+                  <Data value="Adele"/>
+                  <Data value="Justin Bieber"/>
+                  <Data value="Justin Bieber"/>
+                  <Data value="&#x9;Rihanna featuring Drake"/>
+                  <Data value="Justin Timberlake"/>
+                  <Data value="Drake featuring Wizkid and Kyla"/>
+                  <Data value="Sia featuring Sean Paul"/>
+                  <Data value="The Chainsmokers featuring Halsey"/>
+                  <Data value="Rae Sremmurd featuring Gucci Mane"/>
+                </Column>
+                <Column editable="true" title="ReleasedYear" type="java.lang.Integer">
+                  <Data value="2017"/>
+                  <Data value="2017"/>
+                  <Data value="2017"/>
+                  <Data value="2017"/>
+                  <Data value="2017"/>
+                  <Data value="2017"/>
+                  <Data value="2017"/>
+                  <Data value="2017"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                  <Data value="2016"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="close">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
